@@ -1,0 +1,70 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d68f8f;
+    color: #f6f2f2;
+   }
+   
+
+   header {
+    background-color: #8d8c8c; 
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+   }
+   
+  
+   #Skills {
+    background-color: #d68f8f; 
+    padding: 25px;
+   }
+ 
+   #Contact {
+    background-color: #a1c6ea; 
+    padding: 40px;
+   }
+ 
+   footer a {
+    color: #e67e22; 
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    align: center;
+    list-style: none;
+   }
+   footer {
+    text-align: center;
+    }
+    button {
+    margin: 5px; 
+   }
+
+   nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: gray;
+}
+
+  nav ul{
+display:flex;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-size: 1.24rem;
+}
